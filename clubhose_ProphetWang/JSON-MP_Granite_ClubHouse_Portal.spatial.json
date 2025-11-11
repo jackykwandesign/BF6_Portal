@@ -1,0 +1,2943 @@
+{
+    "Portal_Dynamic": [
+        {
+            "name": "TEAM_1_HQ",
+            "AltTeam": "TeamNeutral",
+            "ObjId": 1,
+            "InfantrySpawns": [
+                "TEAM_1_HQ/SpawnPoint_1_1",
+                "TEAM_1_HQ/SpawnPoint_1_2",
+                "TEAM_1_HQ/SpawnPoint_1_3",
+                "TEAM_1_HQ/SpawnPoint_1_4"
+            ],
+            "HQArea": "TEAM_1_HQ/HQ_Team1",
+            "type": "HQ_PlayerSpawner",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -358.536,
+                "y": 220,
+                "z": -695.12
+            },
+            "id": "TEAM_1_HQ",
+            "linked": [
+                "HQArea",
+                "InfantrySpawns"
+            ]
+        },
+        {
+            "name": "HQ_Team1",
+            "type": "PolygonVolume",
+            "id": "TEAM_1_HQ/HQ_Team1",
+            "height": 0,
+            "points": [
+                {
+                    "x": -353.536,
+                    "y": 225,
+                    "z": -690.12
+                },
+                {
+                    "x": -353.536,
+                    "y": 225,
+                    "z": -700.12
+                },
+                {
+                    "x": -363.536,
+                    "y": 225,
+                    "z": -700.12
+                },
+                {
+                    "x": -363.536,
+                    "y": 225,
+                    "z": -690.12
+                }
+            ]
+        },
+        {
+            "name": "SpawnPoint_1_1",
+            "type": "SpawnPoint",
+            "right": {
+                "x": 0.999884,
+                "y": 0,
+                "z": 0.0152535
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": -0.0152535,
+                "y": 0,
+                "z": 0.999884
+            },
+            "position": {
+                "x": -358.536,
+                "y": 220,
+                "z": -698.12
+            },
+            "id": "TEAM_1_HQ/SpawnPoint_1_1"
+        },
+        {
+            "name": "SpawnPoint_1_2",
+            "type": "SpawnPoint",
+            "right": {
+                "x": -0.9995,
+                "y": 0,
+                "z": 0.0316198
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": -0.0316198,
+                "y": 0,
+                "z": -0.9995
+            },
+            "position": {
+                "x": -355.536,
+                "y": 220,
+                "z": -695.12
+            },
+            "id": "TEAM_1_HQ/SpawnPoint_1_2"
+        },
+        {
+            "name": "SpawnPoint_1_3",
+            "type": "SpawnPoint",
+            "right": {
+                "x": -0.0428871,
+                "y": 0,
+                "z": -0.99908
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0.99908,
+                "y": 0,
+                "z": -0.0428871
+            },
+            "position": {
+                "x": -361.536,
+                "y": 220,
+                "z": -695.12
+            },
+            "id": "TEAM_1_HQ/SpawnPoint_1_3"
+        },
+        {
+            "name": "SpawnPoint_1_4",
+            "type": "SpawnPoint",
+            "right": {
+                "x": 0.0841819,
+                "y": 0,
+                "z": 0.99645
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": -0.99645,
+                "y": 0,
+                "z": 0.0841819
+            },
+            "position": {
+                "x": -358.536,
+                "y": 220,
+                "z": -692.12
+            },
+            "id": "TEAM_1_HQ/SpawnPoint_1_4"
+        },
+        {
+            "name": "TEAM_2_HQ",
+            "Team": "Team2",
+            "AltTeam": "TeamNeutral",
+            "ObjId": 2,
+            "InfantrySpawns": [
+                "TEAM_2_HQ/SpawnPoint_2_1",
+                "TEAM_2_HQ/SpawnPoint_2_2",
+                "TEAM_2_HQ/SpawnPoint_2_3",
+                "TEAM_2_HQ/SpawnPoint_2_4"
+            ],
+            "HQArea": "TEAM_2_HQ/HQ_Team2",
+            "type": "HQ_PlayerSpawner",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -367.316,
+                "y": 220,
+                "z": -712.848
+            },
+            "id": "TEAM_2_HQ",
+            "linked": [
+                "HQArea",
+                "InfantrySpawns"
+            ]
+        },
+        {
+            "name": "HQ_Team2",
+            "type": "PolygonVolume",
+            "id": "TEAM_2_HQ/HQ_Team2",
+            "height": 0,
+            "points": [
+                {
+                    "x": -366.430987,
+                    "y": 224.83388,
+                    "z": -685.278691
+                },
+                {
+                    "x": -364.907797,
+                    "y": 224.83388,
+                    "z": -733.989191
+                },
+                {
+                    "x": -377.963587,
+                    "y": 224.83388,
+                    "z": -732.586091
+                },
+                {
+                    "x": -377.807987,
+                    "y": 224.83388,
+                    "z": -685.931391
+                }
+            ]
+        },
+        {
+            "name": "SpawnPoint_2_1",
+            "type": "SpawnPoint",
+            "right": {
+                "x": 0.87795,
+                "y": 0,
+                "z": 0.478754
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": -0.478754,
+                "y": 0,
+                "z": 0.87795
+            },
+            "position": {
+                "x": -367.316,
+                "y": 220,
+                "z": -715.848
+            },
+            "id": "TEAM_2_HQ/SpawnPoint_2_1"
+        },
+        {
+            "name": "SpawnPoint_2_2",
+            "type": "SpawnPoint",
+            "right": {
+                "x": -0.997604,
+                "y": 0,
+                "z": -0.0691822
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0.0691822,
+                "y": 0,
+                "z": -0.997604
+            },
+            "position": {
+                "x": -364.316,
+                "y": 220,
+                "z": -712.848
+            },
+            "id": "TEAM_2_HQ/SpawnPoint_2_2"
+        },
+        {
+            "name": "SpawnPoint_2_3",
+            "type": "SpawnPoint",
+            "right": {
+                "x": 0.162758,
+                "y": 0,
+                "z": -0.986666
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0.986666,
+                "y": 0,
+                "z": 0.162758
+            },
+            "position": {
+                "x": -370.316,
+                "y": 220,
+                "z": -712.848
+            },
+            "id": "TEAM_2_HQ/SpawnPoint_2_3"
+        },
+        {
+            "name": "SpawnPoint_2_4",
+            "type": "SpawnPoint",
+            "right": {
+                "x": -0.165771,
+                "y": 0,
+                "z": 0.986164
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": -0.986164,
+                "y": 0,
+                "z": -0.165771
+            },
+            "position": {
+                "x": -367.316,
+                "y": 220,
+                "z": -709.848
+            },
+            "id": "TEAM_2_HQ/SpawnPoint_2_4"
+        },
+        {
+            "name": "CombatArea",
+            "CombatVolume": "CombatArea/CombatVolume",
+            "type": "CombatArea",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -0.639282,
+                "y": -6.10352e-05,
+                "z": 1.349
+            },
+            "id": "CombatArea",
+            "linked": [
+                "CombatVolume"
+            ]
+        },
+        {
+            "name": "CombatVolume",
+            "type": "PolygonVolume",
+            "id": "CombatArea/CombatVolume",
+            "height": 10,
+            "points": [
+                {
+                    "x": -1001.639282,
+                    "y": 182.8889389648,
+                    "z": -998.651
+                },
+                {
+                    "x": -1001.639282,
+                    "y": 182.8889389648,
+                    "z": 1001.349
+                },
+                {
+                    "x": 998.360718,
+                    "y": 182.8889389648,
+                    "z": 1001.349
+                },
+                {
+                    "x": 998.360718,
+                    "y": 182.8889389648,
+                    "z": -998.651
+                }
+            ]
+        },
+        {
+            "name": "DeployCam",
+            "type": "DeployCam",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 0.101056,
+                "z": -0.994881
+            },
+            "front": {
+                "x": 0,
+                "y": 0.994881,
+                "z": 0.101056
+            },
+            "position": {
+                "x": -490.88,
+                "y": 508.426,
+                "z": -598.183
+            },
+            "id": "Camera3D/DeployCam"
+        },
+        {
+            "name": "AI_Spawner",
+            "ObjId": 1,
+            "type": "AI_Spawner",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -372.419,
+                "y": 220,
+                "z": -732.905
+            },
+            "id": "AI/AI_Spawner"
+        },
+        {
+            "name": "AI_Spawner2",
+            "ObjId": 2,
+            "type": "AI_Spawner",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -372.419,
+                "y": 220,
+                "z": -732.215
+            },
+            "id": "AI/AI_Spawner2"
+        },
+        {
+            "name": "AI_Spawner3",
+            "ObjId": 3,
+            "type": "AI_Spawner",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -372.419,
+                "y": 220,
+                "z": -730.836
+            },
+            "id": "AI/AI_Spawner3"
+        },
+        {
+            "name": "AI_Spawner4",
+            "ObjId": 4,
+            "type": "AI_Spawner",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -372.419,
+                "y": 220,
+                "z": -726.008
+            },
+            "id": "AI/AI_Spawner4"
+        },
+        {
+            "name": "AI_Spawner5",
+            "ObjId": 5,
+            "type": "AI_Spawner",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -372.419,
+                "y": 220,
+                "z": -722.56
+            },
+            "id": "AI/AI_Spawner5"
+        },
+        {
+            "name": "AI_Spawner6",
+            "ObjId": 6,
+            "type": "AI_Spawner",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -372.419,
+                "y": 220,
+                "z": -723.25
+            },
+            "id": "AI/AI_Spawner6"
+        },
+        {
+            "name": "AI_Spawner7",
+            "ObjId": 7,
+            "type": "AI_Spawner",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -372.419,
+                "y": 220,
+                "z": -719.802
+            },
+            "id": "AI/AI_Spawner7"
+        },
+        {
+            "name": "AI_Spawner8",
+            "ObjId": 8,
+            "type": "AI_Spawner",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -372.419,
+                "y": 220,
+                "z": -723.939
+            },
+            "id": "AI/AI_Spawner8"
+        },
+        {
+            "name": "AI_Spawner9",
+            "ObjId": 9,
+            "type": "AI_Spawner",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -372.419,
+                "y": 220,
+                "z": -727.388
+            },
+            "id": "AI/AI_Spawner9"
+        },
+        {
+            "name": "AI_Spawner10",
+            "ObjId": 10,
+            "type": "AI_Spawner",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -372.419,
+                "y": 220,
+                "z": -725.319
+            },
+            "id": "AI/AI_Spawner10"
+        },
+        {
+            "name": "AI_Spawner11",
+            "ObjId": 11,
+            "type": "AI_Spawner",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -372.419,
+                "y": 220,
+                "z": -721.871
+            },
+            "id": "AI/AI_Spawner11"
+        },
+        {
+            "name": "AI_Spawner12",
+            "ObjId": 12,
+            "type": "AI_Spawner",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -372.419,
+                "y": 220,
+                "z": -719.112
+            },
+            "id": "AI/AI_Spawner12"
+        },
+        {
+            "name": "AI_Spawner13",
+            "ObjId": 13,
+            "type": "AI_Spawner",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -372.419,
+                "y": 220,
+                "z": -712.215
+            },
+            "id": "AI/AI_Spawner13"
+        },
+        {
+            "name": "AI_Spawner14",
+            "ObjId": 14,
+            "type": "AI_Spawner",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -372.419,
+                "y": 220,
+                "z": -710.836
+            },
+            "id": "AI/AI_Spawner14"
+        },
+        {
+            "name": "AI_Spawner15",
+            "ObjId": 15,
+            "type": "AI_Spawner",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -372.419,
+                "y": 220,
+                "z": -728.077
+            },
+            "id": "AI/AI_Spawner15"
+        },
+        {
+            "name": "AI_Spawner16",
+            "ObjId": 16,
+            "type": "AI_Spawner",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -372.419,
+                "y": 220,
+                "z": -729.457
+            },
+            "id": "AI/AI_Spawner16"
+        },
+        {
+            "name": "AI_Spawner17",
+            "ObjId": 17,
+            "type": "AI_Spawner",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -372.419,
+                "y": 220,
+                "z": -730.146
+            },
+            "id": "AI/AI_Spawner17"
+        },
+        {
+            "name": "AI_Spawner18",
+            "ObjId": 18,
+            "type": "AI_Spawner",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -372.419,
+                "y": 220,
+                "z": -731.526
+            },
+            "id": "AI/AI_Spawner18"
+        },
+        {
+            "name": "AI_Spawner19",
+            "ObjId": 18,
+            "type": "AI_Spawner",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -372.419,
+                "y": 220,
+                "z": -728.767
+            },
+            "id": "AI/AI_Spawner19"
+        },
+        {
+            "name": "AI_Spawner20",
+            "ObjId": 20,
+            "type": "AI_Spawner",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -372.419,
+                "y": 220,
+                "z": -726.698
+            },
+            "id": "AI/AI_Spawner20"
+        },
+        {
+            "name": "AI_Spawner21",
+            "ObjId": 21,
+            "type": "AI_Spawner",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -372.419,
+                "y": 220,
+                "z": -724.629
+            },
+            "id": "AI/AI_Spawner21"
+        },
+        {
+            "name": "AI_Spawner22",
+            "ObjId": 22,
+            "type": "AI_Spawner",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -372.419,
+                "y": 220,
+                "z": -720.491
+            },
+            "id": "AI/AI_Spawner22"
+        },
+        {
+            "name": "AI_Spawner23",
+            "ObjId": 23,
+            "type": "AI_Spawner",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -372.419,
+                "y": 220,
+                "z": -717.043
+            },
+            "id": "AI/AI_Spawner23"
+        },
+        {
+            "name": "AI_Spawner24",
+            "ObjId": 24,
+            "type": "AI_Spawner",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -372.419,
+                "y": 220,
+                "z": -715.664
+            },
+            "id": "AI/AI_Spawner24"
+        },
+        {
+            "name": "AI_Spawner25",
+            "ObjId": 25,
+            "type": "AI_Spawner",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -372.419,
+                "y": 220,
+                "z": -714.974
+            },
+            "id": "AI/AI_Spawner25"
+        },
+        {
+            "name": "AI_Spawner26",
+            "ObjId": 26,
+            "type": "AI_Spawner",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -372.419,
+                "y": 220,
+                "z": -717.733
+            },
+            "id": "AI/AI_Spawner26"
+        },
+        {
+            "name": "AI_Spawner27",
+            "ObjId": 27,
+            "type": "AI_Spawner",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -372.419,
+                "y": 220,
+                "z": -718.422
+            },
+            "id": "AI/AI_Spawner27"
+        },
+        {
+            "name": "AI_Spawner28",
+            "ObjId": 28,
+            "type": "AI_Spawner",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -372.419,
+                "y": 220,
+                "z": -711.526
+            },
+            "id": "AI/AI_Spawner28"
+        },
+        {
+            "name": "AI_Spawner29",
+            "ObjId": 29,
+            "type": "AI_Spawner",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -372.419,
+                "y": 220,
+                "z": -716.353
+            },
+            "id": "AI/AI_Spawner29"
+        },
+        {
+            "name": "AI_Spawner30",
+            "ObjId": 30,
+            "type": "AI_Spawner",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -372.419,
+                "y": 220,
+                "z": -710.146
+            },
+            "id": "AI/AI_Spawner30"
+        },
+        {
+            "name": "AI_Spawner31",
+            "ObjId": 31,
+            "type": "AI_Spawner",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -372.419,
+                "y": 220,
+                "z": -712.905
+            },
+            "id": "AI/AI_Spawner31"
+        },
+        {
+            "name": "AI_Spawner32",
+            "ObjId": 32,
+            "type": "AI_Spawner",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -372.419,
+                "y": 220,
+                "z": -721.181
+            },
+            "id": "AI/AI_Spawner32"
+        },
+        {
+            "name": "AI_Spawner33",
+            "ObjId": 33,
+            "type": "AI_Spawner",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -372.419,
+                "y": 220,
+                "z": -714.284
+            },
+            "id": "AI/AI_Spawner33"
+        },
+        {
+            "name": "AI_Spawner34",
+            "ObjId": 34,
+            "type": "AI_Spawner",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -372.419,
+                "y": 220,
+                "z": -713.595
+            },
+            "id": "AI/AI_Spawner34"
+        },
+        {
+            "name": "AI_Spawner35",
+            "ObjId": 35,
+            "type": "AI_Spawner",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -372.419,
+                "y": 220,
+                "z": -709.457
+            },
+            "id": "AI/AI_Spawner35"
+        },
+        {
+            "name": "AI_Spawner36",
+            "ObjId": 36,
+            "type": "AI_Spawner",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -370.781,
+                "y": 220.024,
+                "z": -687.638
+            },
+            "id": "AI/AI_Spawner36"
+        },
+        {
+            "name": "AI_Spawner37",
+            "ObjId": 37,
+            "type": "AI_Spawner",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -372.899,
+                "y": 220.024,
+                "z": -687.43
+            },
+            "id": "AI/AI_Spawner37"
+        },
+        {
+            "name": "AI_Spawner38",
+            "ObjId": 38,
+            "type": "AI_Spawner",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -372.877,
+                "y": 220.024,
+                "z": -686.799
+            },
+            "id": "AI/AI_Spawner38"
+        },
+        {
+            "name": "AI_Spawner39",
+            "ObjId": 39,
+            "type": "AI_Spawner",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -370.916,
+                "y": 220.024,
+                "z": -686.92
+            },
+            "id": "AI/AI_Spawner39"
+        },
+        {
+            "name": "AI_Spawner40",
+            "ObjId": 40,
+            "type": "AI_Spawner",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -370.913,
+                "y": 220.024,
+                "z": -686.138
+            },
+            "id": "AI/AI_Spawner40"
+        },
+        {
+            "name": "AI_Spawner41",
+            "ObjId": 41,
+            "type": "AI_Spawner",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -372.883,
+                "y": 220.024,
+                "z": -686.177
+            },
+            "id": "AI/AI_Spawner41"
+        },
+        {
+            "name": "AI_Spawner42",
+            "ObjId": 42,
+            "type": "AI_Spawner",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -371.924,
+                "y": 220.024,
+                "z": -686.171
+            },
+            "id": "AI/AI_Spawner42"
+        },
+        {
+            "name": "AI_Spawner43",
+            "ObjId": 43,
+            "type": "AI_Spawner",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -371.886,
+                "y": 220.024,
+                "z": -686.947
+            },
+            "id": "AI/AI_Spawner43"
+        },
+        {
+            "name": "AI_Spawner44",
+            "ObjId": 44,
+            "type": "AI_Spawner",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -372.892,
+                "y": 220.024,
+                "z": -688.165
+            },
+            "id": "AI/AI_Spawner44"
+        },
+        {
+            "name": "AI_Spawner45",
+            "ObjId": 45,
+            "type": "AI_Spawner",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -370.808,
+                "y": 220.024,
+                "z": -688.42
+            },
+            "id": "AI/AI_Spawner45"
+        },
+        {
+            "name": "VEH_Quadbike",
+            "type": "VEH_Quadbike",
+            "right": {
+                "x": -0.999954,
+                "y": -0.0043457,
+                "z": -0.00860433
+            },
+            "up": {
+                "x": -0.00434586,
+                "y": 0.999991,
+                "z": 0
+            },
+            "front": {
+                "x": 0.00860425,
+                "y": 3.73932e-05,
+                "z": -0.999963
+            },
+            "position": {
+                "x": -357.204,
+                "y": 220,
+                "z": -704.625
+            },
+            "id": "VEH/VEH_Quadbike"
+        },
+        {
+            "name": "VEH_Stationary_BGM71TOW",
+            "type": "VEH_Stationary_BGM71TOW",
+            "right": {
+                "x": -0.999137,
+                "y": 0,
+                "z": 0.0415269
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": -0.0415269,
+                "y": 0,
+                "z": -0.999137
+            },
+            "position": {
+                "x": -378.679,
+                "y": 220.01,
+                "z": -704.076
+            },
+            "id": "VEH/VEH_Stationary_BGM71TOW"
+        },
+        {
+            "name": "VEH_Stationary_GDF009",
+            "type": "VEH_Stationary_GDF009",
+            "right": {
+                "x": -0.921016,
+                "y": 0,
+                "z": 0.389526
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": -0.389526,
+                "y": 0,
+                "z": -0.921016
+            },
+            "position": {
+                "x": -349.885,
+                "y": 220,
+                "z": -706.703
+            },
+            "id": "VEH/VEH_Stationary_GDF009"
+        },
+        {
+            "name": "VEH_UH60",
+            "type": "VEH_UH60",
+            "right": {
+                "x": 0.130595,
+                "y": 0,
+                "z": -0.991436
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0.991436,
+                "y": 0,
+                "z": 0.130595
+            },
+            "position": {
+                "x": -373.738,
+                "y": 220.004,
+                "z": -754.914
+            },
+            "id": "VEH/VEH_UH60"
+        },
+        {
+            "name": "VEH_Vector",
+            "type": "VEH_Vector",
+            "right": {
+                "x": 0.00759208,
+                "y": 0,
+                "z": -0.999971
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0.999971,
+                "y": 0,
+                "z": 0.00759208
+            },
+            "position": {
+                "x": -356.323,
+                "y": 220.019,
+                "z": -757.76
+            },
+            "id": "VEH/VEH_Vector"
+        },
+        {
+            "name": "VEH_M2MG",
+            "type": "VEH_M2MG",
+            "right": {
+                "x": -0.997309,
+                "y": 0,
+                "z": -0.0733079
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0.0733079,
+                "y": 0,
+                "z": -0.997309
+            },
+            "position": {
+                "x": -376.506,
+                "y": 220.259,
+                "z": -703.636
+            },
+            "id": "VEH/VEH_M2MG"
+        },
+        {
+            "name": "VEH_F16",
+            "type": "VEH_F16",
+            "right": {
+                "x": 0.623061,
+                "y": 0,
+                "z": 0.782173
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": -0.782173,
+                "y": 0,
+                "z": 0.623061
+            },
+            "position": {
+                "x": -338.138,
+                "y": 220,
+                "z": -742.909
+            },
+            "id": "VEH/VEH_F16"
+        },
+        {
+            "name": "VEH_F22",
+            "type": "VEH_F22",
+            "right": {
+                "x": 0.694922,
+                "y": 0,
+                "z": 0.719085
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": -0.719085,
+                "y": 0,
+                "z": 0.694922
+            },
+            "position": {
+                "x": -346.352,
+                "y": 220,
+                "z": -751.982
+            },
+            "id": "VEH/VEH_F22"
+        },
+        {
+            "name": "VEH_F23",
+            "type": "VEH_F22",
+            "right": {
+                "x": -0.0871383,
+                "y": 0,
+                "z": 0.996196
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": -0.996196,
+                "y": 0,
+                "z": -0.0871383
+            },
+            "position": {
+                "x": -336.5,
+                "y": 220,
+                "z": -783.506
+            },
+            "id": "VEH/VEH_F23"
+        },
+        {
+            "name": "VEH_F17",
+            "type": "VEH_F16",
+            "right": {
+                "x": -0.0783547,
+                "y": 0,
+                "z": 0.996926
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": -0.996926,
+                "y": 0,
+                "z": -0.0783547
+            },
+            "position": {
+                "x": -340.315,
+                "y": 220,
+                "z": -797.993
+            },
+            "id": "VEH/VEH_F17"
+        },
+        {
+            "name": "VEH_Quadbike2",
+            "type": "VEH_Quadbike",
+            "right": {
+                "x": -0.999954,
+                "y": -0.0043457,
+                "z": -0.00860433
+            },
+            "up": {
+                "x": -0.00434586,
+                "y": 0.999991,
+                "z": 0
+            },
+            "front": {
+                "x": 0.00860425,
+                "y": 3.73932e-05,
+                "z": -0.999963
+            },
+            "position": {
+                "x": -358.6,
+                "y": 219.994,
+                "z": -704.637
+            },
+            "id": "VEH/VEH_Quadbike2"
+        },
+        {
+            "name": "VEH_Quadbike4",
+            "type": "VEH_Quadbike",
+            "right": {
+                "x": -0.999954,
+                "y": -0.0043457,
+                "z": -0.00860433
+            },
+            "up": {
+                "x": -0.00434586,
+                "y": 0.999991,
+                "z": 0
+            },
+            "front": {
+                "x": 0.00860425,
+                "y": 3.73932e-05,
+                "z": -0.999963
+            },
+            "position": {
+                "x": -359.996,
+                "y": 219.988,
+                "z": -704.649
+            },
+            "id": "VEH/VEH_Quadbike4"
+        },
+        {
+            "name": "VEH_Quadbike6",
+            "type": "VEH_Quadbike",
+            "right": {
+                "x": -0.999954,
+                "y": -0.0043457,
+                "z": -0.00860433
+            },
+            "up": {
+                "x": -0.00434586,
+                "y": 0.999991,
+                "z": 0
+            },
+            "front": {
+                "x": 0.00860425,
+                "y": 3.73932e-05,
+                "z": -0.999963
+            },
+            "position": {
+                "x": -361.393,
+                "y": 219.982,
+                "z": -704.661
+            },
+            "id": "VEH/VEH_Quadbike6"
+        },
+        {
+            "name": "VEH_Quadbike8",
+            "type": "VEH_Quadbike",
+            "right": {
+                "x": -0.999954,
+                "y": -0.0043457,
+                "z": -0.00860433
+            },
+            "up": {
+                "x": -0.00434586,
+                "y": 0.999991,
+                "z": 0
+            },
+            "front": {
+                "x": 0.00860425,
+                "y": 3.73932e-05,
+                "z": -0.999963
+            },
+            "position": {
+                "x": -362.789,
+                "y": 219.976,
+                "z": -704.673
+            },
+            "id": "VEH/VEH_Quadbike8"
+        },
+        {
+            "name": "VEH_Eurocopter",
+            "type": "VEH_Eurocopter",
+            "right": {
+                "x": 0.0884075,
+                "y": 0,
+                "z": -0.996084
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0.996084,
+                "y": 0,
+                "z": 0.0884075
+            },
+            "position": {
+                "x": -401.457,
+                "y": 220,
+                "z": -731.193
+            },
+            "id": "VEH/VEH_Eurocopter"
+        },
+        {
+            "name": "VEH_AH64E",
+            "type": "VEH_AH64E",
+            "right": {
+                "x": -0.48368,
+                "y": 0,
+                "z": -0.875245
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0.875245,
+                "y": 0,
+                "z": -0.48368
+            },
+            "position": {
+                "x": -399.581,
+                "y": 220.007,
+                "z": -708.866
+            },
+            "id": "VEH/VEH_AH64E"
+        },
+        {
+            "name": "VEH_Abrams",
+            "type": "VEH_Abrams",
+            "right": {
+                "x": -0.745836,
+                "y": 0,
+                "z": -0.666129
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0.666129,
+                "y": 0,
+                "z": -0.745836
+            },
+            "position": {
+                "x": -402.058,
+                "y": 220,
+                "z": -694.407
+            },
+            "id": "VEH/VEH_Abrams"
+        },
+        {
+            "name": "VEH_CV90",
+            "type": "VEH_CV90",
+            "right": {
+                "x": -0.984886,
+                "y": 0,
+                "z": -0.173201
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0.173201,
+                "y": 0,
+                "z": -0.984886
+            },
+            "position": {
+                "x": -392.591,
+                "y": 220.016,
+                "z": -689.967
+            },
+            "id": "VEH/VEH_CV90"
+        },
+        {
+            "name": "VEH_Cheetah",
+            "type": "VEH_Cheetah",
+            "right": {
+                "x": -0.993832,
+                "y": 0,
+                "z": -0.110897
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0.110897,
+                "y": 0,
+                "z": -0.993832
+            },
+            "position": {
+                "x": -387.857,
+                "y": 220.004,
+                "z": -687.748
+            },
+            "id": "VEH/VEH_Cheetah"
+        },
+        {
+            "name": "VEH_Gepard",
+            "type": "VEH_Gepard",
+            "right": {
+                "x": -0.703122,
+                "y": 0,
+                "z": -0.71107
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0.71107,
+                "y": 0,
+                "z": -0.703122
+            },
+            "position": {
+                "x": -406.792,
+                "y": 220.008,
+                "z": -696.627
+            },
+            "id": "VEH/VEH_Gepard"
+        },
+        {
+            "name": "VEH_Leopard",
+            "type": "VEH_Leopard",
+            "right": {
+                "x": -0.812552,
+                "y": 0,
+                "z": -0.582889
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0.582889,
+                "y": 0,
+                "z": -0.812552
+            },
+            "position": {
+                "x": -397.325,
+                "y": 220.012,
+                "z": -692.187
+            },
+            "id": "VEH/VEH_Leopard"
+        },
+        {
+            "name": "VEH_Flyer60",
+            "type": "VEH_Flyer60",
+            "right": {
+                "x": 0.21407,
+                "y": 0,
+                "z": -0.976818
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0.976818,
+                "y": 0,
+                "z": 0.21407
+            },
+            "position": {
+                "x": -363.312,
+                "y": 220,
+                "z": -757.303
+            },
+            "id": "VEH/VEH_Flyer60"
+        },
+        {
+            "name": "FiringRange_Floor_01",
+            "type": "FiringRange_Floor_01",
+            "right": {
+                "x": 20,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 10
+            },
+            "position": {
+                "x": -653.136,
+                "y": 220,
+                "z": -822.521
+            },
+            "id": "ENV/FiringRange_Floor_01"
+        },
+        {
+            "name": "CommandPost_01_A",
+            "type": "CommandPost_01_A",
+            "right": {
+                "x": -0.25806,
+                "y": 0,
+                "z": 0.966129
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": -0.966129,
+                "y": 0,
+                "z": -0.25806
+            },
+            "position": {
+                "x": -344.829,
+                "y": 220,
+                "z": -692.706
+            },
+            "id": "ENV/CommandPost_01_A"
+        },
+        {
+            "name": "ContainerStandard_01_1280",
+            "type": "ContainerStandard_01_1280",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -371.065,
+                "y": 218.348,
+                "z": -690.091
+            },
+            "id": "ENV/ContainerStandard_01_1280"
+        },
+        {
+            "name": "DecalStrip_01_512",
+            "type": "DecalStrip_01_512",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -374.671,
+                "y": 220.922,
+                "z": -709.014
+            },
+            "id": "ENV/DecalStrip_01_512"
+        },
+        {
+            "name": "FiringRange_ChairFolding_01_A",
+            "type": "FiringRange_ChairFolding_01_A",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -368.97,
+                "y": 220.003,
+                "z": -708.047
+            },
+            "id": "ENV/FiringRange_ChairFolding_01_A"
+        },
+        {
+            "name": "FiringRange_ChairFolding_01_C",
+            "type": "FiringRange_ChairFolding_01_C",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -368.08,
+                "y": 220.003,
+                "z": -708.164
+            },
+            "id": "ENV/FiringRange_ChairFolding_01_C"
+        },
+        {
+            "name": "FiringRange_ChairFolding_01_B",
+            "type": "FiringRange_ChairFolding_01_B",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -369.962,
+                "y": 220.49,
+                "z": -707.552
+            },
+            "id": "ENV/FiringRange_ChairFolding_01_B"
+        },
+        {
+            "name": "FiringRange_DoorwayWall_01",
+            "type": "FiringRange_DoorwayWall_01",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -373.672,
+                "y": 220,
+                "z": -709.046
+            },
+            "id": "ENV/FiringRange_DoorwayWall_01"
+        },
+        {
+            "name": "FiringRange_Floor_03",
+            "type": "FiringRange_Floor_01",
+            "right": {
+                "x": -0.64675,
+                "y": 0,
+                "z": -0.762702
+            },
+            "up": {
+                "x": -0.0673358,
+                "y": 0.996095,
+                "z": 0.0570989
+            },
+            "front": {
+                "x": 0.759724,
+                "y": 0.0882858,
+                "z": -0.644224
+            },
+            "position": {
+                "x": -330.709,
+                "y": 220,
+                "z": -744.538
+            },
+            "id": "ENV/FiringRange_Floor_03"
+        },
+        {
+            "name": "ChairPlastic_01_B",
+            "type": "ChairPlastic_01_B",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -368.966,
+                "y": 220.006,
+                "z": -690.19
+            },
+            "id": "ENV/ChairPlastic_01_B"
+        },
+        {
+            "name": "BarrierStoneBlock_01_B",
+            "type": "BarrierStoneBlock_01_B",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -371.717,
+                "y": 219.653,
+                "z": -689.546
+            },
+            "id": "ENV/BarrierStoneBlock_01_B"
+        },
+        {
+            "name": "BarrierStoneBlock_01_B2",
+            "type": "BarrierStoneBlock_01_B",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -372.953,
+                "y": 219.65,
+                "z": -689.55
+            },
+            "id": "ENV/BarrierStoneBlock_01_B2"
+        },
+        {
+            "name": "FiringRange_Floor_02",
+            "type": "FiringRange_Floor_01",
+            "right": {
+                "x": -9.84088,
+                "y": -11.3206,
+                "z": 0
+            },
+            "up": {
+                "x": 7.5471,
+                "y": -6.56059,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 30
+            },
+            "position": {
+                "x": -719.284,
+                "y": 491.385,
+                "z": -1025.05
+            },
+            "id": "ENV/FiringRange_Floor_02"
+        },
+        {
+            "name": "BallGo01",
+            "type": "BallGo01",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -350.419,
+                "y": 220,
+                "z": -686.114
+            },
+            "id": "ENV/BallGo01"
+        },
+        {
+            "name": "BarrierStoneBlock_01_C",
+            "type": "BarrierStoneBlock_01_C",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -347.27,
+                "y": 220.002,
+                "z": -701.021
+            },
+            "id": "ENV/BarrierStoneBlock_01_C"
+        },
+        {
+            "name": "BarrelOil_01_A",
+            "type": "BarrelOil_01_A",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -350.741,
+                "y": 220.463,
+                "z": -696.235
+            },
+            "id": "ENV/BarrelOil_01_A"
+        },
+        {
+            "name": "CautionSticker_01",
+            "type": "CautionSticker_01",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -349.044,
+                "y": 222.213,
+                "z": -694.962
+            },
+            "id": "ENV/CautionSticker_01"
+        },
+        {
+            "name": "BarriersPedestrian_01_B",
+            "type": "BarriersPedestrian_01_B",
+            "right": {
+                "x": 0.0432357,
+                "y": 0,
+                "z": -0.999065
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0.999065,
+                "y": 0,
+                "z": 0.0432357
+            },
+            "position": {
+                "x": -374.767,
+                "y": 220.013,
+                "z": -707.957
+            },
+            "id": "ENV/BarriersPedestrian_01_B"
+        },
+        {
+            "name": "AmmoChest_Small_Ext_01",
+            "type": "AmmoChest_Small_Ext_01",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -370.851,
+                "y": 220,
+                "z": -708.021
+            },
+            "id": "ENV/AmmoChest_Small_Ext_01"
+        },
+        {
+            "name": "CCTVSign_01",
+            "type": "CCTVSign_01",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -369.915,
+                "y": 222.077,
+                "z": -708.764
+            },
+            "id": "ENV/CCTVSign_01"
+        },
+        {
+            "name": "CautionSticker_02",
+            "type": "CautionSticker_01",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -348.037,
+                "y": 220.785,
+                "z": -701.096
+            },
+            "id": "ENV/CautionSticker_02"
+        },
+        {
+            "name": "FiringRange_MannequinRotation_02",
+            "type": "FiringRange_MannequinRotation_02",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -369.477,
+                "y": 223.637,
+                "z": -708.547
+            },
+            "id": "ENV/FiringRange_MannequinRotation_02"
+        },
+        {
+            "name": "FiringRange_NumberTwo_01",
+            "type": "FiringRange_NumberTwo_01",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -367.666,
+                "y": 220,
+                "z": -709.076
+            },
+            "id": "ENV/FiringRange_NumberTwo_01"
+        },
+        {
+            "name": "FiringRange_NumberThree_01",
+            "type": "FiringRange_NumberThree_01",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -366.847,
+                "y": 220,
+                "z": -709.016
+            },
+            "id": "ENV/FiringRange_NumberThree_01"
+        },
+        {
+            "name": "FiringRange_NumberThree_02",
+            "type": "FiringRange_NumberThree_01",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -366.092,
+                "y": 220,
+                "z": -709.01
+            },
+            "id": "ENV/FiringRange_NumberThree_02"
+        },
+        {
+            "name": "WeaponCase_AR_01",
+            "type": "WeaponCase_AR_01",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -353.638,
+                "y": 220.016,
+                "z": -688.226
+            },
+            "id": "ENV/WeaponCase_AR_01"
+        },
+        {
+            "name": "WeaponCase_Pistol_01",
+            "type": "WeaponCase_Pistol_01",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -353.645,
+                "y": 220.005,
+                "z": -686.997
+            },
+            "id": "ENV/WeaponCase_Pistol_01"
+        },
+        {
+            "name": "WeaponCase_Sniper_01",
+            "type": "WeaponCase_Sniper_01",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -353.644,
+                "y": 220.011,
+                "z": -685.653
+            },
+            "id": "ENV/WeaponCase_Sniper_01"
+        },
+        {
+            "name": "WeaponsCache_01_Crate_B",
+            "type": "WeaponsCache_01_Crate_B",
+            "right": {
+                "x": -0.645391,
+                "y": 0,
+                "z": 0.763852
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": -0.763852,
+                "y": 0,
+                "z": -0.645391
+            },
+            "position": {
+                "x": -351.504,
+                "y": 220.014,
+                "z": -683.04
+            },
+            "id": "ENV/WeaponsCache_01_Crate_B"
+        },
+        {
+            "name": "LootSpawner",
+            "type": "LootSpawner",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -353.877,
+                "y": 220.329,
+                "z": -683.765
+            },
+            "id": "ENV/LootSpawner"
+        }
+    ],
+    "Static": [
+        {
+            "name": "MP_Granite_ClubHouse_Portal_Terrain",
+            "metadata/_edit_lock_": true,
+            "type": "MP_Granite_ClubHouse_Portal_Terrain",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "id": "Static/MP_Granite_ClubHouse_Portal_Terrain"
+        },
+        {
+            "name": "MP_Granite_ClubHouse_Portal_Assets",
+            "metadata/_edit_lock_": true,
+            "type": "MP_Granite_ClubHouse_Portal_Assets",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "id": "Static/MP_Granite_ClubHouse_Portal_Assets"
+        }
+    ]
+}
